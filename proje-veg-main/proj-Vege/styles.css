@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+header .head-nav {
+  background-color: black;
+}
+header .head-nav .head-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 30px;
+}
+header .head-nav .head-ul li {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+header .head-nav .head-ul li:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+main {
+  background-image: url(wdq-min.jpg);
+  background-size: 1000px;
+  height: 440px;
+  background-repeat: no-repeat;
+  width: 100% !important;
+}
+
+.main-1 .container,
+.main-1 .container-2 {
+    font-family: sans-serif !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  position: relative;
+  top: 200px;
+  color: white;
+}
+.main-1 .container-2{
+    margin-top: 30px;
+}
+
+.main-1 .container-2 .sec-box :nth-child(2){
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 600;
+}
+.sec-1 {
+  
+  background-color: black;
+  height: 55vh;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sec-box {
+  width: 300px;
+  text-align: justify;
+  display: flex;
+/*   align-items: center; */
+  flex-direction: column;
+  gap: 30px;
+}
+.main-1 .container .box {
+  height: 140px;
+  width: 160px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+.main-1 .container-2 .sec-box .sec-box-icon{
+    display: flex;
+   align-items: center;
+   color: #f14a0e;
+   font-size: 25px;
+    gap: 10px;
+    width: 100%;
+}
+.main-1 .box i {
+  color: #f14a0e;
+  font-size: 25px;
+}
+
+.main-1 .box h3 {
+  font-size: 14px;
+  text-align: center;
+  color: black;
+}
+
+.main-1 .box span {
+  font-size: 10px;
+  text-align: center;
+  color: black;
+}
+
+.main-1 .container-2 form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-1 .container-2 form label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.main-1 .container-2 form label input {
+  outline: none;
+  padding-bottom: 5px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid gray;
+  width: 250px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+}
+.main-1 .container-2 form label textarea {
+  outline: none;
+  padding-bottom: 5px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid gray !important;
+  height: 50px;
+  width: 250px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.main-1 .container-2 form input[type="submit"] {
+  width: 250px;
+  border-radius: 20px;
+  background-color: #f14a0e;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+footer{
+    background-color: rgb(79, 79, 79);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+@media only screen and (min-width:1000px){
+    main {
+        background-image: url(wdq-min.jpg);
+        background-size: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        width: 100% !important;
+      }
+}
+
+@media only screen and (max-width:414px){
+    .main-1 .container .box {
+        height: 240px;
+        width: 260px;
+      }
+    .sec-1{
+        background-color: black;
+        height: 1450px;
+      }
+}
